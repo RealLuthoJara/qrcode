@@ -40,6 +40,7 @@
     <!-- Title of application -->
     <title>QR Code Generator</title>
 </head>
+
 <body>
     <header class="bg-blue-500 p-4 mb-10">
       <div class="max-w-5xl m-auto">
@@ -90,7 +91,7 @@
         </div>
       </div>
       <!-- Generated QR Code -->
-      <div class="max-w-5xl m-auto flex flex-col text-center align-center justify-center mt-20">
+      <div id = "generated" class="max-w-5xl m-auto flex flex-col text-center align-center justify-center mt-20">
        
         <!-- Spinner -->
         <div id="spinner" role="status">
@@ -115,6 +116,9 @@
         <!-- QR Code Output -->
         <div id="qrcode" class="m-auto"></div> 
       </div>
+      <br/>
+      <br/>
+      <br/>
     </main>
 </body>
 </html>
